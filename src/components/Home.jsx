@@ -1,12 +1,13 @@
 import React from 'react'
-import Navbar from './Navbar'
+import {Header, Footer} from './HeaderFooter'
 import About from './About'
 
 const Home = () => {
   return (
     <>
-     <Navbar />
+     <Header />
      <About />
+     <Footer />
     </>
   )
 }

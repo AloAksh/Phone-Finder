@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Navbar = () => {
+export const Header = () => {
   return (
     <>
       <nav className='flex flex-row justify-end mx-5'>
@@ -11,4 +11,10 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export const Footer = () => {
+  return(
+    <>
+    <footer className='p-5'></footer>
+    </>
+  )
+}
